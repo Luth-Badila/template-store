@@ -1,4 +1,3 @@
-import React from "react";
 import localFont from "next/font/local";
 
 const myFont = localFont({
@@ -9,7 +8,7 @@ const myFont = localFont({
 function HomePage() {
   return (
     <div className={myFont.className}>
-      <h1 className="flex justify-center items-center h-[60vh] text-6xl relative">Luth Template Website</h1>;
+      <h1 className="flex items-center justify-center h-[95vh] lg:text-6xl text-center text-3xl">Luth Template Website</h1>;
     </div>
   );
 }
